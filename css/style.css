@@ -97,7 +97,8 @@
     background:#fff;
     padding-right:18px;
     transition:all .3s ease;
-    max-width:400px
+    max-width:400px;
+	border-radius: 5px;
 }
 .aplayer.aplayer-fixed .aplayer-lrc {
     display:block;
@@ -5829,7 +5830,7 @@ button.botui-actions-buttons-button {
     padding-left:8px;
     padding-right:8px;
     word-break:keep-all; 
-    font-family: "loli"; 
+    font-family: "萝莉体 第二版"; 
 }
 .logolink.moe-mashiro .shironeko {
     margin-left:-5px
@@ -7837,10 +7838,4 @@ td.hljs-ln-numbers {
 
 @media(max-width:1200px) {
     .toc {display: none;}
-}
-
-@font-face {
-font-family: loli;
-src:url('fonts/loli.woff'),
-url('fonts/loli.ttf'),
 }
