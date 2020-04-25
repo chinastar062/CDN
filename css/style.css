@@ -5829,7 +5829,7 @@ button.botui-actions-buttons-button {
     padding-left:8px;
     padding-right:8px;
     word-break:keep-all; 
-    font-family: "萝莉体 第二版"; 
+    font-family: "loli"; 
 }
 .logolink.moe-mashiro .shironeko {
     margin-left:-5px
@@ -7837,4 +7837,10 @@ td.hljs-ln-numbers {
 
 @media(max-width:1200px) {
     .toc {display: none;}
+}
+
+@font-face {
+font-family: loli;
+src:url('fonts/loli.woff'),
+url('fonts/loli.ttf'),
 }
