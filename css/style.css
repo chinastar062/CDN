@@ -97,8 +97,7 @@
     background:#fff;
     padding-right:18px;
     transition:all .3s ease;
-    max-width:400px;
-	border-radius: 5px;
+    max-width:400px
 }
 .aplayer.aplayer-fixed .aplayer-lrc {
     display:block;
@@ -1649,7 +1648,8 @@ a:hover,a:active {
     border-radius:50%;
     padding:2px;
     border:1px solid #dadada;
-    position:relative
+    position:relative;
+	object-fit:cover;
 }
 .feature :hover .overlay i {
     opacity:1
@@ -5823,14 +5823,14 @@ button.botui-actions-buttons-button {
     text-decoration-line:none
 }
 .logolink.moe-mashiro .sakurasono {
-    font-size:28px;
+    font-size:25px;
     border-radius:9px;
     padding-bottom:2px;
     padding-top:5px;
-    padding-left:2px;
-    padding-right:2px;
+    padding-left:8px;
+    padding-right:8px;
     word-break:keep-all; 
-    font-family: "loli"; 
+    font-family: "萝莉体 第二版"; 
 }
 .logolink.moe-mashiro .shironeko {
     margin-left:-5px
@@ -7838,10 +7838,4 @@ td.hljs-ln-numbers {
 
 @media(max-width:1200px) {
     .toc {display: none;}
-}
-
-
-@font-face {
-font-family: loli;
-src: url('https://github.com/RomEYer-AwELF/CDN@master/fonts/loli.ttf');
 }
