@@ -187,6 +187,35 @@ function imgError (ele, type) {
   }
     console.log('%c Github %c', 'background:#24272A; color:#ffffff', '', ele.src)
 }
+mashiro_global.post_list_show_animation = new function () {
+  this.ini = function (ajax) {
+    $('article.post-list-thumb').each(function (i) {
+      if (ajax) {
+        var window_height = $(window).height()
+      } else {
+        if ($('.headertop').hasClass('headertop-bar')) {
+          var window_height = 0
+        } else {
+          var window_height = $(window).height() - 300
+        }
+      }
+      if (!mashiro_global.landing_at_home) {
+        window_height += 300
+      }
+      var article_height = $('article.post-list-thumb').eq(i).offset().top
+      if ($(window).height() + $(window).scrollTop() >= article_height) {
+        $('article.post-list-thumb').eq(i).addClass('post-list-show')
+      }
+      $(window).scroll(function () {
+        var scrolltop = $(window).scrollTop()
+        if (scrolltop + window_height >= article_height && scrolltop) {
+          $('article.post-list-thumb').eq(i).addClass('post-list-show')
+        }
+      })
+    })
+  }
+}()
+
 function post_list_show_animation() {
     if ($("article").hasClass("post-list-thumb")) {
         var options = {
@@ -215,6 +244,7 @@ function post_list_show_animation() {
         })
     }
 }
+
 mashiro_global.font_control = new function () {
   this.change_font = function () {
     if ($('body').hasClass('serif')) {
