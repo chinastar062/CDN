@@ -1,0 +1,12 @@
+@charset "UTF-8";
+ 
+@font-face {
+  font-family: "Roboto-Regular";
+  src:
+       url("https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@master/fonts/loli.woff") format("woff"),
+       url("https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@master/fonts/loli.ttf") format("truetype"),
+       url("https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@master/fonts/loli.eot") format("embedded-opentype"),
+       url("https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@master/fonts/loli.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
