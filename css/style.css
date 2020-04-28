@@ -97,7 +97,8 @@
     background:#fff;
     padding-right:18px;
     transition:all .3s ease;
-    max-width:400px
+    max-width:400px;
+    border-radius: 5px;
 }
 .aplayer.aplayer-fixed .aplayer-lrc {
     display:block;
