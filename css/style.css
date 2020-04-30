@@ -3144,7 +3144,8 @@ header.page-header {
     width:65px;
     height:65px;
     padding:2px;
-    border-radius:100%
+    border-radius:100%;
+    object-fit:cover;
 }
 .links ul li:hover img {
     transform:rotate(360deg);
