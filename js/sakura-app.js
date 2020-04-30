@@ -196,7 +196,7 @@ mashiro_global.post_list_show_animation = new function () {
         if ($('.headertop').hasClass('headertop-bar')) {
           var window_height = 0
         } else {
-          var window_height = $(window).height() - 300
+          var window_height = $(window).height() - 1150
         }
       }
       if (!mashiro_global.landing_at_home) {
@@ -215,36 +215,6 @@ mashiro_global.post_list_show_animation = new function () {
     })
   }
 }()
-
-function post_list_show_animation() {
-    if ($("article").hasClass("post-list-thumb")) {
-        var options = {
-            root: null,
-            threshold: [0.66]
-        }
-        var io = new IntersectionObserver(callback, options);
-        var articles = document.querySelectorAll('.post-list-thumb');
-
-        function callback(entries) {
-            entries.forEach((article) => {
-                if (article.target.classList.contains("post-list-show")) {
-                    article.target.style.willChange = 'auto';
-                    io.unobserve(article.target)
-                } else {
-                    if (article.isIntersecting) {
-                        article.target.classList.add("post-list-show");
-                        article.target.style.willChange = 'auto';
-                        io.unobserve(article.target)
-                    }
-                }
-            })
-        }
-        articles.forEach((article) => {
-            io.observe(article)
-        })
-    }
-}
-
 mashiro_global.font_control = new function () {
   this.change_font = function () {
     if ($('body').hasClass('serif')) {
