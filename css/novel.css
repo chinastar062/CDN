@@ -27,3 +27,7 @@
       .toc {
         right: calc((100% - 1100px - 250px) / 2);
       }
+      .site-main {
+        margin-left: 3%;
+        margin-right: 3%;
+      }
