@@ -7187,7 +7187,8 @@ to {
 }
 .the-feature img {
     height:160px;
-    width:257px
+    width:257px;
+    object-fit: cover;
 }
 .the-feature.from_left_and_right {
     position:relative;
