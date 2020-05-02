@@ -1,0 +1,29 @@
+      .pattern-center {
+         position: relative;
+         top: 0;
+         left: 0;
+         width: 900px;
+         overflow: hidden;
+         margin: 0 auto;
+      }
+      .site-content {
+        max-width: 900px;
+        background-color: rgba(255,255,255,.8);
+      }
+      .site-footer {
+        max-width: 900px;
+        background-color: rgba(255,255,255,.8);
+      }
+      body {
+        background: url(https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/500525466.jpg);
+        background-attachment: fixed;
+      }
+      .post-footer {
+        height: 10%;
+      }
+      .post-footer {
+        font-size: 15px;
+      }
+      .toc {
+        right: calc((100% - 1100px - 250px) / 2);
+      }
