@@ -1061,7 +1061,7 @@ var home = location.href,
         .catch(err => console.error(err))
     },
     TOC: function () {
-      if ($('.toc').length > 0 && document.body.clientWidth > 1200) {
+      if ($('.toc').length > 0 && document.body.clientWidth > 1120) {
         if ($(".pattern-center").length > 0) { //有图的情况
           tocbot.init({
               // Where to render the table of contents.
