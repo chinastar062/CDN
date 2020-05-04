@@ -11,3 +11,6 @@ body {
   height: 75px;
   font-size: 16px;
 }
+.mdui-textfield.mdui-textfield-floating-label.mdui-textfield-focus {
+  color: #ff4081!important;
+}
