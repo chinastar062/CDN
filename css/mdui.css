@@ -28,3 +28,9 @@ body {
 .mdui-switch-icon {
     left: 4px;
 }
+.mdui-theme-accent-blue .mdui-typo a {
+	color: #ff4081!important;
+}
+.mdui-theme-accent-blue .mdui-typo a:before {
+	background-color: #ff4081!important;
+}
