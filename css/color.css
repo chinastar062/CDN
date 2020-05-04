@@ -1,0 +1,13 @@
+body {
+    font-size: 15px;
+    background: url(https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/500525466.jpg);
+    background-attachment: fixed;
+}
+.mdui-theme-primary-blue-grey .mdui-color-theme {
+  color: #7e7e7e;
+  background-color: #fff;
+}
+.mdui-appbar .mdui-toolbar {
+  height: 75px;
+  font-size: 16px;
+}
