@@ -4,8 +4,8 @@ body {
     background-attachment: fixed;
 }
 .mdui-theme-primary-blue-grey .mdui-color-theme {
-  color: #7e7e7e;
-  background-color: #fff;
+  color: #7e7e7e!important;
+  background-color: #fff!important;
 }
 .mdui-appbar .mdui-toolbar {
   height: 75px;
