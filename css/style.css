@@ -7528,7 +7528,8 @@ to {
     width:36px;
     background-color:#f5f5f5;
     border-radius:50%;
-    cursor:pointer
+    cursor:pointer;
+    font-size: 10em;
 }
 .menu-list li:hover {
     background-color:#fc3;
