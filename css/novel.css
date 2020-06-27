@@ -6,6 +6,9 @@
          overflow: hidden;
          margin: 0 auto;
       }
+      .pattern-center-sakura {
+            width: 900px !important;
+      }
       .site-content {
         max-width: 900px;
         background-color: rgba(255,255,255,.8);
@@ -15,7 +18,7 @@
         background-color: rgba(255,255,255,.8);
       }
       body {
-        background: url(https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/500525466.jpg);
+        background: url(https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/500525466.jpg) !important;
         background-attachment: fixed;
       }
       .post-footer {
