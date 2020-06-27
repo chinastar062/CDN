@@ -7843,3 +7843,17 @@ td.hljs-ln-numbers {
 @media(max-width:1200px) {
     .toc {display: none;}
 }
+.vnick {
+    position: relative;
+    cursor: pointer;
+    color: #FE9600;
+    text-decoration: none;
+    display: inline-block;
+}
+ .changeSkin-gear {
+    font-size: 10em;
+    font-family: 'Merriweather Sans',Helvetica,Tahoma,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei','WenQuanYi Micro Hei',sans-serif;
+}
+ .control-btn-serif {
+    font-family: 'Noto Serif SC','Source Han Serif SC','Source Han Serif',source-han-serif-sc,'PT Serif','SongTi SC','MicroSoft Yahei',Georgia,serif;
+}
